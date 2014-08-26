@@ -5,9 +5,6 @@
       location = "group:Frank.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:lib/PublicAutomation/PublicAutomation.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:lib/Shelley/Shelley.xcodeproj">
    </FileRef>
    <FileRef
