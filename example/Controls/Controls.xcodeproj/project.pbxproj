@@ -13,6 +13,53 @@
 		03FF0B85169F5069007131E5 /* DoubleTapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FF0B83169F5069007131E5 /* DoubleTapViewController.xib */; };
 		1542BFE3169B74EE00573367 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542BFE1169B74EE00573367 /* AlertViewController.m */; };
 		1542BFE4169B74EE00573367 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1542BFE2169B74EE00573367 /* AlertViewController.xib */; };
+		1F0A633519ACB29F002A7622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6225FA71436D886002B04AA /* main.m */; };
+		1F0A633619ACB29F002A7622 /* ControlsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6225FAA1436D886002B04AA /* ControlsAppDelegate.m */; };
+		1F0A633719ACB29F002A7622 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6225FB01436D886002B04AA /* RootViewController.m */; };
+		1F0A633819ACB29F002A7622 /* UISwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69137BD1436DB00003C26AC /* UISwitchViewController.m */; };
+		1F0A633919ACB29F002A7622 /* Carousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49543E4C1538791E001D87F1 /* Carousel.m */; };
+		1F0A633A19ACB29F002A7622 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49543E501538793B001D87F1 /* CarouselViewController.m */; };
+		1F0A633B19ACB29F002A7622 /* EditableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C164121E1543BFDC00FECF23 /* EditableTableViewController.m */; };
+		1F0A633C19ACB29F002A7622 /* DataEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E7C1C91569DA9200CCBCD8 /* DataEntryViewController.m */; };
+		1F0A633D19ACB29F002A7622 /* UIProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60AD52157C97FB008EE16A /* UIProgressViewController.m */; };
+		1F0A633E19ACB29F002A7622 /* ControlsAppDelegate+FrankExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AC878D15605FAB002B1165 /* ControlsAppDelegate+FrankExtensions.m */; };
+		1F0A633F19ACB29F002A7622 /* ViewPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C177A4D016323CD50081DF77 /* ViewPropertiesViewController.m */; };
+		1F0A634019ACB29F002A7622 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE57C216402BC60027BCAC /* LocationViewController.m */; };
+		1F0A634119ACB29F002A7622 /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529777D8164C63CC009726F3 /* SampleTableViewController.m */; };
+		1F0A634219ACB29F002A7622 /* LongTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FF0B7C169F3FB1007131E5 /* LongTouchViewController.m */; };
+		1F0A634319ACB29F002A7622 /* DoubleTapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FF0B82169F5069007131E5 /* DoubleTapViewController.m */; };
+		1F0A634419ACB29F002A7622 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542BFE1169B74EE00573367 /* AlertViewController.m */; };
+		1F0A634619ACB29F002A7622 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CE57C7164031600027BCAC /* CoreLocation.framework */; };
+		1F0A634719ACB29F002A7622 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6225F9A1436D886002B04AA /* UIKit.framework */; };
+		1F0A634819ACB29F002A7622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6225F9C1436D886002B04AA /* Foundation.framework */; };
+		1F0A634919ACB29F002A7622 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6225F9E1436D886002B04AA /* CoreGraphics.framework */; };
+		1F0A634B19ACB29F002A7622 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6225FA31436D886002B04AA /* InfoPlist.strings */; };
+		1F0A634C19ACB29F002A7622 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6225FAC1436D886002B04AA /* MainWindow.xib */; };
+		1F0A634D19ACB29F002A7622 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6225FB21436D886002B04AA /* RootViewController.xib */; };
+		1F0A634E19ACB29F002A7622 /* UISwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69137BE1436DB00003C26AC /* UISwitchViewController.xib */; };
+		1F0A634F19ACB29F002A7622 /* CarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49543E5315387AD8001D87F1 /* CarouselViewController.xib */; };
+		1F0A635019ACB29F002A7622 /* DataEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E7C1CA1569DA9200CCBCD8 /* DataEntryViewController.xib */; };
+		1F0A635119ACB29F002A7622 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C3CCC5156BE29D00AEE136 /* image0.png */; };
+		1F0A635219ACB29F002A7622 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C3CCC8156BE30200AEE136 /* image1.png */; };
+		1F0A635319ACB29F002A7622 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C3CCCB156BE33800AEE136 /* image2.png */; };
+		1F0A635419ACB29F002A7622 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C3CCCE156BE36600AEE136 /* image3.png */; };
+		1F0A635519ACB29F002A7622 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C3CCD1156BE39900AEE136 /* image4.png */; };
+		1F0A635619ACB29F002A7622 /* UIProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C60AD53157C97FB008EE16A /* UIProgressViewController.xib */; };
+		1F0A635719ACB29F002A7622 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E8A77515F3B418001083B5 /* MainWindow-iPad.xib */; };
+		1F0A635819ACB29F002A7622 /* ViewPropertiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C177A4D116323CD50081DF77 /* ViewPropertiesViewController.xib */; };
+		1F0A635919ACB29F002A7622 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1CE57C316402BC60027BCAC /* LocationViewController.xib */; };
+		1F0A635A19ACB29F002A7622 /* LongTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FF0B7D169F3FB1007131E5 /* LongTouchViewController.xib */; };
+		1F0A635B19ACB29F002A7622 /* DoubleTapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FF0B83169F5069007131E5 /* DoubleTapViewController.xib */; };
+		1F0A635C19ACB29F002A7622 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1542BFE2169B74EE00573367 /* AlertViewController.xib */; };
+		1F0A636719ACB2F7002A7622 /* libCocoaAsyncSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636219ACB2F7002A7622 /* libCocoaAsyncSocket.a */; };
+		1F0A636819ACB2F7002A7622 /* libCocoaHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636319ACB2F7002A7622 /* libCocoaHTTPServer.a */; };
+		1F0A636919ACB2F7002A7622 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636419ACB2F7002A7622 /* libCocoaLumberjack.a */; };
+		1F0A636A19ACB2F7002A7622 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636519ACB2F7002A7622 /* libFrank.a */; };
+		1F0A636B19ACB2F7002A7622 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636619ACB2F7002A7622 /* libShelley.a */; };
+		1F0A636D19ACB2FE002A7622 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636C19ACB2FE002A7622 /* CFNetwork.framework */; };
+		1F0A636F19ACB305002A7622 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636E19ACB305002A7622 /* SenTestingKit.framework */; };
+		1F0A637119ACB30D002A7622 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A637019ACB30D002A7622 /* Security.framework */; };
+		1F0A637319ACB326002A7622 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F0A637219ACB326002A7622 /* frank_static_resources.bundle */; };
 		49543E4D1538791E001D87F1 /* Carousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49543E4C1538791E001D87F1 /* Carousel.m */; };
 		49543E511538793B001D87F1 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49543E501538793B001D87F1 /* CarouselViewController.m */; };
 		49543E5415387AD8001D87F1 /* CarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49543E5315387AD8001D87F1 /* CarouselViewController.xib */; };
@@ -57,6 +104,17 @@
 		1542BFE0169B74EE00573367 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
 		1542BFE1169B74EE00573367 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		1542BFE2169B74EE00573367 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		1F0A636019ACB29F002A7622 /* Controls frankified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Controls frankified.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0A636119ACB29F002A7622 /* Controls copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Controls copy-Info.plist"; path = "/Users/silktest/Documents/Development/Frank/example/Controls/Controls copy-Info.plist"; sourceTree = "<absolute>"; };
+		1F0A636219ACB2F7002A7622 /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaAsyncSocket.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos/libCocoaAsyncSocket.a"; sourceTree = "<group>"; };
+		1F0A636319ACB2F7002A7622 /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaHTTPServer.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos/libCocoaHTTPServer.a"; sourceTree = "<group>"; };
+		1F0A636419ACB2F7002A7622 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaLumberjack.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos/libCocoaLumberjack.a"; sourceTree = "<group>"; };
+		1F0A636519ACB2F7002A7622 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFrank.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos/libFrank.a"; sourceTree = "<group>"; };
+		1F0A636619ACB2F7002A7622 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libShelley.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos/libShelley.a"; sourceTree = "<group>"; };
+		1F0A636C19ACB2FE002A7622 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1F0A636E19ACB305002A7622 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1F0A637019ACB30D002A7622 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1F0A637219ACB326002A7622 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = frank_static_resources.bundle; path = ../../dist/frank_static_resources.bundle; sourceTree = "<group>"; };
 		49543E4B1538791E001D87F1 /* Carousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carousel.h; sourceTree = "<group>"; };
 		49543E4C1538791E001D87F1 /* Carousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carousel.m; sourceTree = "<group>"; };
 		49543E4F1538793B001D87F1 /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
@@ -106,6 +164,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F0A634519ACB29F002A7622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0A637119ACB30D002A7622 /* Security.framework in Frameworks */,
+				1F0A636F19ACB305002A7622 /* SenTestingKit.framework in Frameworks */,
+				1F0A636D19ACB2FE002A7622 /* CFNetwork.framework in Frameworks */,
+				1F0A636719ACB2F7002A7622 /* libCocoaAsyncSocket.a in Frameworks */,
+				1F0A636819ACB2F7002A7622 /* libCocoaHTTPServer.a in Frameworks */,
+				1F0A636919ACB2F7002A7622 /* libCocoaLumberjack.a in Frameworks */,
+				1F0A636A19ACB2F7002A7622 /* libFrank.a in Frameworks */,
+				1F0A636B19ACB2F7002A7622 /* libShelley.a in Frameworks */,
+				1F0A634619ACB29F002A7622 /* CoreLocation.framework in Frameworks */,
+				1F0A634719ACB29F002A7622 /* UIKit.framework in Frameworks */,
+				1F0A634819ACB29F002A7622 /* Foundation.framework in Frameworks */,
+				1F0A634919ACB29F002A7622 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6225F931436D886002B04AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,11 +220,13 @@
 		D6225F8B1436D886002B04AA = {
 			isa = PBXGroup;
 			children = (
+				1F0A637219ACB326002A7622 /* frank_static_resources.bundle */,
 				D6225FA01436D886002B04AA /* Controls */,
 				D69137C11436E0EF003C26AC /* Extensions */,
 				49543E3B153878EC001D87F1 /* Images */,
 				D6225F991436D886002B04AA /* Frameworks */,
 				D6225F971436D886002B04AA /* Products */,
+				1F0A636119ACB29F002A7622 /* Controls copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				D6225F961436D886002B04AA /* Controls.app */,
+				1F0A636019ACB29F002A7622 /* Controls frankified.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +242,14 @@
 		D6225F991436D886002B04AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F0A637019ACB30D002A7622 /* Security.framework */,
+				1F0A636E19ACB305002A7622 /* SenTestingKit.framework */,
+				1F0A636C19ACB2FE002A7622 /* CFNetwork.framework */,
+				1F0A636219ACB2F7002A7622 /* libCocoaAsyncSocket.a */,
+				1F0A636319ACB2F7002A7622 /* libCocoaHTTPServer.a */,
+				1F0A636419ACB2F7002A7622 /* libCocoaLumberjack.a */,
+				1F0A636519ACB2F7002A7622 /* libFrank.a */,
+				1F0A636619ACB2F7002A7622 /* libShelley.a */,
 				C1CE57C7164031600027BCAC /* CoreLocation.framework */,
 				D6225F9A1436D886002B04AA /* UIKit.framework */,
 				D6225F9C1436D886002B04AA /* Foundation.framework */,
@@ -240,6 +328,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1F0A633319ACB29F002A7622 /* Controls frankified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0A635D19ACB29F002A7622 /* Build configuration list for PBXNativeTarget "Controls frankified" */;
+			buildPhases = (
+				1F0A633419ACB29F002A7622 /* Sources */,
+				1F0A634519ACB29F002A7622 /* Frameworks */,
+				1F0A634A19ACB29F002A7622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Controls frankified";
+			productName = Controls;
+			productReference = 1F0A636019ACB29F002A7622 /* Controls frankified.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D6225F951436D886002B04AA /* Controls */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6225FB71436D886002B04AA /* Build configuration list for PBXNativeTarget "Controls" */;
@@ -279,11 +384,38 @@
 			projectRoot = "";
 			targets = (
 				D6225F951436D886002B04AA /* Controls */,
+				1F0A633319ACB29F002A7622 /* Controls frankified */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F0A634A19ACB29F002A7622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0A634B19ACB29F002A7622 /* InfoPlist.strings in Resources */,
+				1F0A634C19ACB29F002A7622 /* MainWindow.xib in Resources */,
+				1F0A634D19ACB29F002A7622 /* RootViewController.xib in Resources */,
+				1F0A634E19ACB29F002A7622 /* UISwitchViewController.xib in Resources */,
+				1F0A634F19ACB29F002A7622 /* CarouselViewController.xib in Resources */,
+				1F0A635019ACB29F002A7622 /* DataEntryViewController.xib in Resources */,
+				1F0A635119ACB29F002A7622 /* image0.png in Resources */,
+				1F0A635219ACB29F002A7622 /* image1.png in Resources */,
+				1F0A635319ACB29F002A7622 /* image2.png in Resources */,
+				1F0A635419ACB29F002A7622 /* image3.png in Resources */,
+				1F0A635519ACB29F002A7622 /* image4.png in Resources */,
+				1F0A635619ACB29F002A7622 /* UIProgressViewController.xib in Resources */,
+				1F0A635719ACB29F002A7622 /* MainWindow-iPad.xib in Resources */,
+				1F0A635819ACB29F002A7622 /* ViewPropertiesViewController.xib in Resources */,
+				1F0A635919ACB29F002A7622 /* LocationViewController.xib in Resources */,
+				1F0A635A19ACB29F002A7622 /* LongTouchViewController.xib in Resources */,
+				1F0A635B19ACB29F002A7622 /* DoubleTapViewController.xib in Resources */,
+				1F0A637319ACB326002A7622 /* frank_static_resources.bundle in Resources */,
+				1F0A635C19ACB29F002A7622 /* AlertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6225F941436D886002B04AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +444,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F0A633419ACB29F002A7622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0A633519ACB29F002A7622 /* main.m in Sources */,
+				1F0A633619ACB29F002A7622 /* ControlsAppDelegate.m in Sources */,
+				1F0A633719ACB29F002A7622 /* RootViewController.m in Sources */,
+				1F0A633819ACB29F002A7622 /* UISwitchViewController.m in Sources */,
+				1F0A633919ACB29F002A7622 /* Carousel.m in Sources */,
+				1F0A633A19ACB29F002A7622 /* CarouselViewController.m in Sources */,
+				1F0A633B19ACB29F002A7622 /* EditableTableViewController.m in Sources */,
+				1F0A633C19ACB29F002A7622 /* DataEntryViewController.m in Sources */,
+				1F0A633D19ACB29F002A7622 /* UIProgressViewController.m in Sources */,
+				1F0A633E19ACB29F002A7622 /* ControlsAppDelegate+FrankExtensions.m in Sources */,
+				1F0A633F19ACB29F002A7622 /* ViewPropertiesViewController.m in Sources */,
+				1F0A634019ACB29F002A7622 /* LocationViewController.m in Sources */,
+				1F0A634119ACB29F002A7622 /* SampleTableViewController.m in Sources */,
+				1F0A634219ACB29F002A7622 /* LongTouchViewController.m in Sources */,
+				1F0A634319ACB29F002A7622 /* DoubleTapViewController.m in Sources */,
+				1F0A634419ACB29F002A7622 /* AlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6225F921436D886002B04AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,6 +528,67 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1F0A635E19ACB29F002A7622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Controls/Controls-Prefix.pch";
+				INFOPLIST_FILE = "Controls copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRANK_LIBRARY_SEARCH_PATHS)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Controls frankified";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F0A635F19ACB29F002A7622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Controls/Controls-Prefix.pch";
+				INFOPLIST_FILE = "Controls copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Controls frankified";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		D6225FB51436D886002B04AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -446,6 +662,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F0A635D19ACB29F002A7622 /* Build configuration list for PBXNativeTarget "Controls frankified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0A635E19ACB29F002A7622 /* Debug */,
+				1F0A635F19ACB29F002A7622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D6225F901436D886002B04AA /* Build configuration list for PBXProject "Controls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
