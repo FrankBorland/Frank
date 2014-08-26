@@ -13,6 +13,11 @@
 		03FF0B85169F5069007131E5 /* DoubleTapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FF0B83169F5069007131E5 /* DoubleTapViewController.xib */; };
 		1542BFE3169B74EE00573367 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542BFE1169B74EE00573367 /* AlertViewController.m */; };
 		1542BFE4169B74EE00573367 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1542BFE2169B74EE00573367 /* AlertViewController.xib */; };
+		1F020A6619ACC1BB005622FA /* libCocoaAsyncSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F020A6119ACC1BB005622FA /* libCocoaAsyncSocket.a */; };
+		1F020A6719ACC1BB005622FA /* libCocoaHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F020A6219ACC1BB005622FA /* libCocoaHTTPServer.a */; };
+		1F020A6819ACC1BB005622FA /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F020A6319ACC1BB005622FA /* libCocoaLumberjack.a */; };
+		1F020A6919ACC1BB005622FA /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F020A6419ACC1BB005622FA /* libFrank.a */; };
+		1F020A6A19ACC1BB005622FA /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F020A6519ACC1BB005622FA /* libShelley.a */; };
 		1F0A633519ACB29F002A7622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6225FA71436D886002B04AA /* main.m */; };
 		1F0A633619ACB29F002A7622 /* ControlsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6225FAA1436D886002B04AA /* ControlsAppDelegate.m */; };
 		1F0A633719ACB29F002A7622 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6225FB01436D886002B04AA /* RootViewController.m */; };
@@ -51,11 +56,6 @@
 		1F0A635A19ACB29F002A7622 /* LongTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FF0B7D169F3FB1007131E5 /* LongTouchViewController.xib */; };
 		1F0A635B19ACB29F002A7622 /* DoubleTapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FF0B83169F5069007131E5 /* DoubleTapViewController.xib */; };
 		1F0A635C19ACB29F002A7622 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1542BFE2169B74EE00573367 /* AlertViewController.xib */; };
-		1F0A636719ACB2F7002A7622 /* libCocoaAsyncSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636219ACB2F7002A7622 /* libCocoaAsyncSocket.a */; };
-		1F0A636819ACB2F7002A7622 /* libCocoaHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636319ACB2F7002A7622 /* libCocoaHTTPServer.a */; };
-		1F0A636919ACB2F7002A7622 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636419ACB2F7002A7622 /* libCocoaLumberjack.a */; };
-		1F0A636A19ACB2F7002A7622 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636519ACB2F7002A7622 /* libFrank.a */; };
-		1F0A636B19ACB2F7002A7622 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636619ACB2F7002A7622 /* libShelley.a */; };
 		1F0A636D19ACB2FE002A7622 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636C19ACB2FE002A7622 /* CFNetwork.framework */; };
 		1F0A636F19ACB305002A7622 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A636E19ACB305002A7622 /* SenTestingKit.framework */; };
 		1F0A637119ACB30D002A7622 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0A637019ACB30D002A7622 /* Security.framework */; };
@@ -104,6 +104,11 @@
 		1542BFE0169B74EE00573367 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
 		1542BFE1169B74EE00573367 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		1542BFE2169B74EE00573367 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		1F020A6119ACC1BB005622FA /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaAsyncSocket.a; path = ../../dist/libCocoaAsyncSocket.a; sourceTree = "<group>"; };
+		1F020A6219ACC1BB005622FA /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaHTTPServer.a; path = ../../dist/libCocoaHTTPServer.a; sourceTree = "<group>"; };
+		1F020A6319ACC1BB005622FA /* libCocoaLumberjack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaLumberjack.a; path = ../../dist/libCocoaLumberjack.a; sourceTree = "<group>"; };
+		1F020A6419ACC1BB005622FA /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFrank.a; path = ../../dist/libFrank.a; sourceTree = "<group>"; };
+		1F020A6519ACC1BB005622FA /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libShelley.a; path = ../../dist/libShelley.a; sourceTree = "<group>"; };
 		1F0A636019ACB29F002A7622 /* Controls frankified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Controls frankified.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0A636119ACB29F002A7622 /* Controls copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Controls copy-Info.plist"; path = "/Users/silktest/Documents/Development/Frank/example/Controls/Controls copy-Info.plist"; sourceTree = "<absolute>"; };
 		1F0A636219ACB2F7002A7622 /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaAsyncSocket.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos/libCocoaAsyncSocket.a"; sourceTree = "<group>"; };
@@ -168,14 +173,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F020A6619ACC1BB005622FA /* libCocoaAsyncSocket.a in Frameworks */,
+				1F020A6719ACC1BB005622FA /* libCocoaHTTPServer.a in Frameworks */,
+				1F020A6819ACC1BB005622FA /* libCocoaLumberjack.a in Frameworks */,
+				1F020A6919ACC1BB005622FA /* libFrank.a in Frameworks */,
+				1F020A6A19ACC1BB005622FA /* libShelley.a in Frameworks */,
 				1F0A637119ACB30D002A7622 /* Security.framework in Frameworks */,
 				1F0A636F19ACB305002A7622 /* SenTestingKit.framework in Frameworks */,
 				1F0A636D19ACB2FE002A7622 /* CFNetwork.framework in Frameworks */,
-				1F0A636719ACB2F7002A7622 /* libCocoaAsyncSocket.a in Frameworks */,
-				1F0A636819ACB2F7002A7622 /* libCocoaHTTPServer.a in Frameworks */,
-				1F0A636919ACB2F7002A7622 /* libCocoaLumberjack.a in Frameworks */,
-				1F0A636A19ACB2F7002A7622 /* libFrank.a in Frameworks */,
-				1F0A636B19ACB2F7002A7622 /* libShelley.a in Frameworks */,
 				1F0A634619ACB29F002A7622 /* CoreLocation.framework in Frameworks */,
 				1F0A634719ACB29F002A7622 /* UIKit.framework in Frameworks */,
 				1F0A634819ACB29F002A7622 /* Foundation.framework in Frameworks */,
@@ -242,6 +247,11 @@
 		D6225F991436D886002B04AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F020A6119ACC1BB005622FA /* libCocoaAsyncSocket.a */,
+				1F020A6219ACC1BB005622FA /* libCocoaHTTPServer.a */,
+				1F020A6319ACC1BB005622FA /* libCocoaLumberjack.a */,
+				1F020A6419ACC1BB005622FA /* libFrank.a */,
+				1F020A6519ACC1BB005622FA /* libShelley.a */,
 				1F0A637019ACB30D002A7622 /* Security.framework */,
 				1F0A636E19ACB305002A7622 /* SenTestingKit.framework */,
 				1F0A636C19ACB2FE002A7622 /* CFNetwork.framework */,
@@ -548,6 +558,7 @@
 					"$(inherited)",
 					"$(FRANK_LIBRARY_SEARCH_PATHS)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos",
+					/Users/silktest/Documents/Development/Frank/dist,
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -577,6 +588,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos",
+					/Users/silktest/Documents/Development/Frank/dist,
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",
