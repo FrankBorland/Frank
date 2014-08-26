@@ -534,8 +534,6 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 					"$(SDKROOT)/Developer/Library/Frameworks",
 				);
@@ -567,8 +565,6 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 					"$(SDKROOT)/Developer/Library/Frameworks",
 				);
