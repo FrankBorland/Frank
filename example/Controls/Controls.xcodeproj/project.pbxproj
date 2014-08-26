@@ -104,11 +104,11 @@
 		1542BFE0169B74EE00573367 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
 		1542BFE1169B74EE00573367 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		1542BFE2169B74EE00573367 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
-		1F020A6B19ACC236005622FA /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaAsyncSocket.a; path = "../../dist/libCocoaAsyncSocket.a"; sourceTree = "<group>"; };
-		1F020A6C19ACC236005622FA /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaHTTPServer.a; path = "../../dist/libCocoaHTTPServer.a"; sourceTree = "<group>"; };
-		1F020A6D19ACC236005622FA /* libCocoaLumberjack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaLumberjack.a; path = "../../dist/libCocoaLumberjack.a"; sourceTree = "<group>"; };
-		1F020A6E19ACC236005622FA /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFrank.a; path = "../../dist/libFrank.a"; sourceTree = "<group>"; };
-		1F020A6F19ACC236005622FA /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libShelley.a; path = "../../dist/libShelley.a"; sourceTree = "<group>"; };
+		1F020A6B19ACC236005622FA /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaAsyncSocket.a; path = ../../dist/libCocoaAsyncSocket.a; sourceTree = "<group>"; };
+		1F020A6C19ACC236005622FA /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaHTTPServer.a; path = ../../dist/libCocoaHTTPServer.a; sourceTree = "<group>"; };
+		1F020A6D19ACC236005622FA /* libCocoaLumberjack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaLumberjack.a; path = ../../dist/libCocoaLumberjack.a; sourceTree = "<group>"; };
+		1F020A6E19ACC236005622FA /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFrank.a; path = ../../dist/libFrank.a; sourceTree = "<group>"; };
+		1F020A6F19ACC236005622FA /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libShelley.a; path = ../../dist/libShelley.a; sourceTree = "<group>"; };
 		1F0A636019ACB29F002A7622 /* Controls frankified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Controls frankified.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0A636119ACB29F002A7622 /* Controls copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Controls copy-Info.plist"; path = "/Users/silktest/Documents/Development/Frank/example/Controls/Controls copy-Info.plist"; sourceTree = "<absolute>"; };
 		1F0A636C19ACB2FE002A7622 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -542,13 +542,7 @@
 				GCC_PREFIX_HEADER = "Controls/Controls-Prefix.pch";
 				INFOPLIST_FILE = "Controls copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRANK_LIBRARY_SEARCH_PATHS)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos",
-					/Users/silktest/Documents/Development/Frank/dist,
-					"/Users/silktest/Documents/Development/Frank/build/Release-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../dist\"";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -572,12 +566,7 @@
 				GCC_PREFIX_HEADER = "Controls/Controls-Prefix.pch";
 				INFOPLIST_FILE = "Controls copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Frank-dvwvuhekugzwgybndcwriwoqwsuv/Build/Products/Debug-iphoneos",
-					/Users/silktest/Documents/Development/Frank/dist,
-					"/Users/silktest/Documents/Development/Frank/build/Release-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../dist\"";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
