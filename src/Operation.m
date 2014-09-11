@@ -7,7 +7,8 @@
 //
 
 #import "Operation.h"
-
+#import "SilkBool.h"
+#import "stdbool.h"
 
 @implementation Operation
 
@@ -118,7 +119,11 @@
 		
 		// for some reason using [NSValue valueWithBytes:returnType] is creating instances of NSConcreteValue rather than NSValue, so 
 		//I'm fudging it here with case-by-case logic
-		if( !strcmp(returnType, @encode(char)) ) {
+		if( !strcmp(returnType, @encode(BOOL)) ) {
+            SilkBool *silkbool = [[SilkBool alloc] init];
+            silkbool.boolValue = [NSNumber numberWithChar:*((char*)buffer)];
+            returnValue = silkbool;
+		}else if( !strcmp(returnType, @encode(char)) ) {
 			returnValue = [NSNumber numberWithChar:*((char*)buffer)];
 		}else if( !strcmp(returnType, @encode(unsigned char)) ) {
 			returnValue = [NSNumber numberWithUnsignedChar:*((unsigned char*)buffer)];

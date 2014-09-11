@@ -7,11 +7,95 @@
 //
 
 #import "ViewJSONSerializer.h"
+#import "MacTypes.h"
+#import "SilkBool.h"
+#import <UIKit/UIKit.h>
 
 #define PSEUDO_INF	@"inf"
 
 @implementation ViewJSONSerializer
 #pragma mark - generic JSON conversion
++ (NSObject *) silkjsonify: (id<NSObject>) obj {
+	if(obj == nil || obj == [NSNull null]) {
+		return [NSNull null];
+	}
+	if([obj isKindOfClass: UIView.class]) {
+        
+#if TARGET_OS_IPHONE
+        NSString *uid = [NSString stringWithFormat:@"%i", (int) obj];
+#else
+        NSString *uid = [NSString stringWithFormat:@"%lu", (uintptr_t) obj];
+#endif
+		NSMutableDictionary *jsonDictionary = [NSMutableDictionary dictionary];
+        [jsonDictionary setObject: uid forKey: @"UIView"];
+        return jsonDictionary;
+	}
+    
+	if([obj isKindOfClass: NSString.class]) {
+		NSMutableDictionary *jsonDictionary = [NSMutableDictionary dictionary];
+        [jsonDictionary setObject: obj forKey: @"string"];
+        return jsonDictionary;
+	}
+    
+    if([obj isKindOfClass: SilkBool.class]) {
+		NSMutableDictionary *jsonDictionary = [NSMutableDictionary dictionary];
+        NSNumber *value = ((SilkBool*)obj).boolValue;
+        [jsonDictionary setObject: value forKey: @"bool"];
+        return jsonDictionary;
+	}
+	
+    if([obj isKindOfClass: NSNumber.class]) {
+		NSMutableDictionary *jsonDictionary = [NSMutableDictionary dictionary];
+        [jsonDictionary setObject: obj forKey: @"number"];
+        return jsonDictionary;
+	}
+    
+	if([obj isKindOfClass: NSArray.class] || [obj isKindOfClass: NSSet.class]) {
+		NSMutableArray *array = [NSMutableArray array];
+		
+		id<NSFastEnumeration> theArray = (id<NSFastEnumeration>) [(NSObject *)obj copy];
+		for(id subObject in theArray) {
+			id subJson = [ViewJSONSerializer silkjsonify: subObject];
+			[array addObject: subJson];
+		}
+		NSMutableDictionary *jsonDictionary = [NSMutableDictionary dictionary];
+        [jsonDictionary setObject: array forKey: @"array"];
+		return jsonDictionary;
+	}
+	
+	if([obj isKindOfClass: NSDictionary.class]) {
+		NSMutableDictionary *jsonDictionary = [NSMutableDictionary dictionary];
+		
+		NSDictionary *theDictionary = [(NSDictionary *) obj copy];
+		for(id key in [theDictionary allKeys]) {
+			id value = [theDictionary objectForKey: key];
+			
+			id subJson = [ViewJSONSerializer silkjsonify: value];
+			if(subJson != nil) {
+				[jsonDictionary setObject: subJson forKey: key];
+			}
+		}
+		return jsonDictionary;
+	}
+	
+	
+	if( [obj isKindOfClass: NSValue.class] ) {
+		return  [ViewJSONSerializer extractInstanceFromValue: (NSValue *) obj];
+	}
+	
+#if TARGET_OS_IPHONE
+	if ([obj isKindOfClass: UIColor.class]) {
+		return [ViewJSONSerializer extractInstanceFromColor: (UIColor *) obj];
+	}
+#else
+    if ([obj isKindOfClass: NSColor.class]) {
+		return [ViewJSONSerializer extractInstanceFromColor: (NSColor *) obj];
+	}
+#endif
+	
+	return [NSString stringWithFormat:@"%@:%@", NSStringFromClass(obj.class), obj];
+}
+
 + (NSObject *) jsonify: (id<NSObject>) obj {
 	if(obj == nil || obj == [NSNull null]) {
 		return [NSNull null];

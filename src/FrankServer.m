@@ -22,6 +22,7 @@
 #import "VersionCommand.h"
 #import "SuccessCommand.h"
 #import "MapOperationCommand.h"
+#import "SilkMapOperationCommand.h"
 #import "ResolutionCommand.h"
 
 #if TARGET_OS_IPHONE
@@ -68,6 +69,7 @@ static NSUInteger __defaultPort = FRANK_SERVER_PORT;
         [frankCommandRoute registerCommand:[[[VersionCommand alloc] initWithVersion:[NSString stringWithFormat:@"%s",xstr(FRANK_PRODUCT_VERSION)]]autorelease] withName:@"version"];
         [frankCommandRoute registerCommand:[[[ExitCommand alloc] init] autorelease] withName:@"exit"];
         [frankCommandRoute registerCommand:[[[MapOperationCommand alloc]init]autorelease] withName:@"map"];
+        [frankCommandRoute registerCommand:[[[SilkMapOperationCommand alloc]init]autorelease] withName:@"silkmap"];
         
 #if TARGET_OS_IPHONE
         [frankCommandRoute registerCommand:[[[OrientationCommand alloc]init]autorelease] withName:@"orientation"];

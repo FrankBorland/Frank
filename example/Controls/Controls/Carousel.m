@@ -19,6 +19,21 @@
     }
 }
 
+-(NSArray*)getImages
+{
+    return images;
+}
+
+-(NSArray*)getNumOfImages:(int)numOfImages
+{
+    return images;
+}
+
+-(UIView*)getMe
+{
+    return self;
+}
+
 #pragma mark - Carousel setup
 
 - (void)setup

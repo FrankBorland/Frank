@@ -18,6 +18,7 @@
 
 @interface ViewJSONSerializer : NSObject
 + (NSObject *) jsonify: (id<NSObject>) obj;
++ (NSObject *) silkjsonify: (id<NSObject>) obj;
 
 + (id) extractInstanceFromValue: (NSValue *) value;
 + (id) extractInstanceFromColor: (FrankColor *) color;
