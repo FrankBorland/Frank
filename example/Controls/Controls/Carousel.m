@@ -29,6 +29,15 @@
     return images;
 }
 
+-(NSString*)parameterCheck:(int)number withString:(NSString*)s
+{
+    NSString* retVal = @"";
+    retVal = [retVal stringByAppendingFormat:@"%i", number];
+    retVal = [retVal stringByAppendingString:s];
+    return retVal;
+}
+
+
 -(UIView*)getMe
 {
     return self;
