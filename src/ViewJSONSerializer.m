@@ -7,9 +7,11 @@
 //
 
 #import "ViewJSONSerializer.h"
-#import "MacTypes.h"
 #import "SilkBool.h"
-#import <UIKit/UIKit.h>
+
+#if TARGET_OS_IPHONE
+  #import <UIKit/UIKit.h>
+#endif
 
 #define PSEUDO_INF	@"inf"
 
@@ -19,17 +21,14 @@
 	if(obj == nil || obj == [NSNull null]) {
 		return [NSNull null];
 	}
-	if([obj isKindOfClass: UIView.class]) {
-        
 #if TARGET_OS_IPHONE
+	if([obj isKindOfClass: UIView.class]) {
         NSString *uid = [NSString stringWithFormat:@"%i", (int) obj];
-#else
-        NSString *uid = [NSString stringWithFormat:@"%lu", (uintptr_t) obj];
-#endif
 		NSMutableDictionary *jsonDictionary = [NSMutableDictionary dictionary];
         [jsonDictionary setObject: uid forKey: @"UIView"];
         return jsonDictionary;
 	}
+#endif
     
 	if([obj isKindOfClass: NSString.class]) {
 		NSMutableDictionary *jsonDictionary = [NSMutableDictionary dictionary];
