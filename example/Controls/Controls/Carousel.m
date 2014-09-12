@@ -43,6 +43,11 @@
     return self;
 }
 
+-(NSArray*)getMeTwice
+{
+    return [NSArray arrayWithObjects:self, self, nil];
+}
+
 #pragma mark - Carousel setup
 
 - (void)setup
