@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "UISwitchViewController.h"
+#import "UIButtonViewController.h"
 #import "CarouselViewController.h"
 #import "EditableTableViewController.h"
 #import "DataEntryViewController.h"
@@ -20,6 +21,7 @@
 #import "AlertViewController.h"
 
 typedef enum {
+    RowsUIButton,
     RowsUISwitch,
     RowsCarousel,
     RowsEditableTable,
@@ -82,6 +84,7 @@ typedef enum {
 
 - (NSString *) rowNameForRow:(NSInteger)rowIndex{
     NSArray *rowNames = @[
+                 @"UIButton",
                  @"UISwitch",
                  @"Carousel",
                  @"Editable Table",
@@ -156,6 +159,9 @@ typedef enum {
     UIViewController *detailVC;
 
     switch ([indexPath row]) {
+        case RowsUIButton:
+            detailVC = [[UIButtonViewController alloc] initWithNibName:@"UIButtonViewController" bundle:nil];
+            break;
         case RowsUISwitch:
             detailVC = [[UISwitchViewController alloc] initWithNibName:@"UISwitchViewController" bundle:nil];
             break;
