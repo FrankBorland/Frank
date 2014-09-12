@@ -93,6 +93,10 @@
 		D66968BD1594DDDE000163A8 /* ControlsAppDelegate+FrankExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AC878D15605FAB002B1165 /* ControlsAppDelegate+FrankExtensions.m */; };
 		D69137BF1436DB00003C26AC /* UISwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69137BD1436DB00003C26AC /* UISwitchViewController.m */; };
 		D69137C01436DB00003C26AC /* UISwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69137BE1436DB00003C26AC /* UISwitchViewController.xib */; };
+		FD09E34019C2C77800CE5240 /* UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09E33E19C2C77800CE5240 /* UIButtonViewController.m */; };
+		FD09E34119C2C77800CE5240 /* UIButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD09E33F19C2C77800CE5240 /* UIButtonViewController.xib */; };
+		FD09E34219C2CA6800CE5240 /* UIButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD09E33F19C2C77800CE5240 /* UIButtonViewController.xib */; };
+		FD09E34319C2CDF900CE5240 /* UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09E33E19C2C77800CE5240 /* UIButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +167,9 @@
 		D69137BC1436DB00003C26AC /* UISwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwitchViewController.h; sourceTree = "<group>"; };
 		D69137BD1436DB00003C26AC /* UISwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwitchViewController.m; sourceTree = "<group>"; };
 		D69137BE1436DB00003C26AC /* UISwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UISwitchViewController.xib; sourceTree = "<group>"; };
+		FD09E33D19C2C77800CE5240 /* UIButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonViewController.h; sourceTree = "<group>"; };
+		FD09E33E19C2C77800CE5240 /* UIButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonViewController.m; sourceTree = "<group>"; };
+		FD09E33F19C2C77800CE5240 /* UIButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIButtonViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +284,9 @@
 				D69137BC1436DB00003C26AC /* UISwitchViewController.h */,
 				D69137BD1436DB00003C26AC /* UISwitchViewController.m */,
 				D69137BE1436DB00003C26AC /* UISwitchViewController.xib */,
+				FD09E33F19C2C77800CE5240 /* UIButtonViewController.xib */,
+				FD09E33D19C2C77800CE5240 /* UIButtonViewController.h */,
+				FD09E33E19C2C77800CE5240 /* UIButtonViewController.m */,
 				49543E4F1538793B001D87F1 /* CarouselViewController.h */,
 				49543E501538793B001D87F1 /* CarouselViewController.m */,
 				49543E5315387AD8001D87F1 /* CarouselViewController.xib */,
@@ -413,6 +423,7 @@
 				1FA5E3A619AF47110077542F /* Default-568h@2x.png in Resources */,
 				1F0A635819ACB29F002A7622 /* ViewPropertiesViewController.xib in Resources */,
 				1F0A635919ACB29F002A7622 /* LocationViewController.xib in Resources */,
+				FD09E34219C2CA6800CE5240 /* UIButtonViewController.xib in Resources */,
 				1F0A635A19ACB29F002A7622 /* LongTouchViewController.xib in Resources */,
 				1F0A635B19ACB29F002A7622 /* DoubleTapViewController.xib in Resources */,
 				1F0A637319ACB326002A7622 /* frank_static_resources.bundle in Resources */,
@@ -425,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6225FA51436D886002B04AA /* InfoPlist.strings in Resources */,
+				FD09E34119C2C77800CE5240 /* UIButtonViewController.xib in Resources */,
 				D6225FAE1436D886002B04AA /* MainWindow.xib in Resources */,
 				D6225FB41436D886002B04AA /* RootViewController.xib in Resources */,
 				D69137C01436DB00003C26AC /* UISwitchViewController.xib in Resources */,
@@ -456,6 +468,7 @@
 				1F0A633619ACB29F002A7622 /* ControlsAppDelegate.m in Sources */,
 				1F0A633719ACB29F002A7622 /* RootViewController.m in Sources */,
 				1F0A633819ACB29F002A7622 /* UISwitchViewController.m in Sources */,
+				FD09E34319C2CDF900CE5240 /* UIButtonViewController.m in Sources */,
 				1F0A633919ACB29F002A7622 /* Carousel.m in Sources */,
 				1F0A633A19ACB29F002A7622 /* CarouselViewController.m in Sources */,
 				1F0A633B19ACB29F002A7622 /* EditableTableViewController.m in Sources */,
@@ -479,6 +492,7 @@
 				D6225FAB1436D886002B04AA /* ControlsAppDelegate.m in Sources */,
 				D6225FB11436D886002B04AA /* RootViewController.m in Sources */,
 				D69137BF1436DB00003C26AC /* UISwitchViewController.m in Sources */,
+				FD09E34019C2C77800CE5240 /* UIButtonViewController.m in Sources */,
 				49543E4D1538791E001D87F1 /* Carousel.m in Sources */,
 				49543E511538793B001D87F1 /* CarouselViewController.m in Sources */,
 				C164121F1543BFDC00FECF23 /* EditableTableViewController.m in Sources */,
