@@ -15,7 +15,7 @@ MAKE_CATEGORIES_LOADABLE(UIView_PublicAutomation)
 
 @interface UIView ()
 
-- (UIEvent*) _eventWithTouch: (UITouch*) touch;
+//- (UIEvent*) _eventWithTouch: (UITouch*) touch;
 
 @end
 
@@ -373,7 +373,7 @@ MAKE_CATEGORIES_LOADABLE(UIView_PublicAutomation)
     UITouch* touch = [[UITouch alloc] initAtPoint: touchPoint inView: self];
     [touch setPhase:UITouchPhaseBegan];
     
-    UIEvent* eventDown = [self _eventWithTouch: touch];
+    UIEvent* eventDown = [self eventWithTouch: touch];
     [[UIApplication sharedApplication] sendEvent: eventDown];
     
     CFRunLoopRunInMode(UIApplicationCurrentRunMode, delay ? DRAG_TOUCH_DELAY : 0.01, false);
@@ -383,7 +383,7 @@ MAKE_CATEGORIES_LOADABLE(UIView_PublicAutomation)
         [touch setLocationInWindow: path[pointIndex]];
         [touch setPhase: UITouchPhaseMoved];
         
-        UIEvent *eventDrag = [self _eventWithTouch: touch];
+        UIEvent *eventDrag = [self eventWithTouch: touch];
         [[UIApplication sharedApplication] sendEvent: eventDrag];
         
         CFRunLoopRunInMode(UIApplicationCurrentRunMode, DRAG_STEP, false);
@@ -391,7 +391,7 @@ MAKE_CATEGORIES_LOADABLE(UIView_PublicAutomation)
     
     [touch setPhase: UITouchPhaseEnded];
     
-    UIEvent* eventUp = [self _eventWithTouch: touch];
+    UIEvent* eventUp = [self eventWithTouch: touch];
     [[UIApplication sharedApplication] sendEvent: eventUp];
     
     if (touch.view == self && [self canBecomeFirstResponder])
